@@ -64,23 +64,3 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jonathangunawan30&theme=radical" alt="jonathangunawan30" />
 </p>
-
-<style>
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
-</style>
