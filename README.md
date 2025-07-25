@@ -52,15 +52,54 @@
   <table width="100%">
     <tr>
       <td width="50%" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=jonathangunawan30&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="jonathangunawan30's GitHub stats" />
+        <picture>
+          <source 
+            media="(prefers-color-scheme: dark)" 
+            srcset="https://github-readme-stats.vercel.app/api?username=jonathangunawan30&show_icons=true&theme=radical&hide_border=true&count_private=true"
+          />
+          <source 
+            media="(prefers-color-scheme: light)" 
+            srcset="https://github-readme-stats.vercel.app/api?username=jonathangunawan30&show_icons=true&theme=graywhite&hide_border=true&count_private=true"
+          />
+          <img 
+            src="https://github-readme-stats.vercel.app/api?username=jonathangunawan30&show_icons=true&theme=graywhite&hide_border=true&count_private=true" 
+            alt="jonathangunawan30's GitHub stats" 
+          />
+        </picture>
       </td>
       <td width="50%" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonathangunawan30&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
+        <picture>
+          <source 
+            media="(prefers-color-scheme: dark)" 
+            srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=jonathangunawan30&layout=compact&theme=radical&hide_border=true"
+          />
+          <source 
+            media="(prefers-color-scheme: light)" 
+            srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=jonathangunawan30&layout=compact&theme=graywhite&hide_border=true"
+          />
+          <img 
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonathangunawan30&layout=compact&theme=graywhite&hide_border=true"
+            alt="Top Langs" 
+          />
+        </picture>
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=jonathangunawan30&theme=radical&hide_border=true" alt="GitHub Streak" />
+        <picture>
+          <source 
+            media="(prefers-color-scheme: dark)" 
+            srcset="https://github-readme-streak-stats.herokuapp.com/?user=jonathangunawan30&theme=radical&hide_border=true"
+          />
+          <source 
+            media="(prefers-color-scheme: light)" 
+            srcset="https://github-readme-streak-stats.herokuapp.com/?user=jonathangunawan30&theme=default&hide_border=true"
+          />
+          <img 
+            src="https://github-readme-streak-stats.herokuapp.com/?user=jonathangunawan30&theme=default&hide_border=true"
+            alt="GitHub Streak"
+          />
+        </picture>
       </td>
     </tr>
   </table>
